@@ -52,7 +52,7 @@ nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
 nnoremap <leader><Space> zf
 vnoremap <Space> zf
 noremap ww <esc>:w<CR>
-noremap qq <esc>:wq<CR>
+noremap qq <esc>:wq!<CR>
 
 "/*}}}*/
 " NO SOUNDS {{{ 

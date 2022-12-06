@@ -1,0 +1,13 @@
+Run the following line in the terminal to install the Vundle package manager:
+
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+then, while in the lillivimrc directory: 
+
+    cp vimrc ~/.vimrc
+
+next, open Vim and run:
+    
+    :PluginInstall
+
+
