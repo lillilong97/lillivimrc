@@ -18,12 +18,12 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
 Plugin 'godlygeek/tabular'
 Plugin 'preservim/nerdcommenter'
-Plugin 'flazz/vim-colorschemes'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-colorscheme-switcher'
 Plugin 'Taverius/vim-colorscheme-manager'
 Plugin 'biskark/vim-ultimate-colorscheme-utility'
 Plugin 'tpope/vim-fugitive'
+Plugin 'NLKNguyen/papercolor-theme.git'
 " All of your Plugins must be added before the following line}}}
 call vundle#end()            " required{{{
 filetype plugin indent on    " required}}}
@@ -53,6 +53,7 @@ nnoremap <leader><Space> zf
 vnoremap <Space> zf
 noremap ww <esc>:w<CR>
 noremap qq <esc>:wq!<CR>
+inoremap <Tab><Tab> <C-n>
 
 "/*}}}*/
 " NO SOUNDS {{{ 
@@ -94,11 +95,10 @@ let g:NERDToggleCheckAllLines = 1
 " COLORSCHEME{{{
 set background=dark
 
-colorscheme blues
-" colorscheme Atelier_DuneDark
+colorscheme PaperColor
 
 " F9 adds to blacklist
-" F8/<shift>F8 navigates glabal list 
+" F8/<shift>F8 navigates global list 
 
 " let g:ulti_color_always_random = 1 " colorscheme is randomly chosen from favs
 let g:ulti_color_Add_Fav = '<F7>'
