@@ -10,4 +10,8 @@ next, open Vim and run:
     
     :PluginInstall
 
+maybe run to get rid of old extensions 
+
+    :PluginClean
+
 
