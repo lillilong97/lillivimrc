@@ -3,6 +3,11 @@
 " maybe she won't lose this one....
 
 " SETUP {{{
+" Set up Vundle by cloning the repo
+ " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+ " then run:
+ " :VundleInstall 
+ " in the vim command line
 set nocompatible              " be iMproved, required{{{
 filetype off                  " required
 set number
