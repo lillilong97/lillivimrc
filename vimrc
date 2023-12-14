@@ -1,10 +1,10 @@
-" VIMRC DEAR FUCK
+" VIMRC DEAR FUCK Windows Version
 " by Lilli Long
 " maybe she won't lose this one....
 
 " SETUP {{{
 " Set up Vundle by cloning the repo
- " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+ " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vimfiles/bundle/Vundle.vim
  " then run:
  " :VundleInstall 
  " in the vim command line
@@ -14,8 +14,10 @@ set number
 syntax on
 set cursorline
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()"}}}
+set shellslash
+set rtp+=~/vimfiles/bundle/Vundle.vim
+call vundle#begin('~/vimfiles/bundle')
+" let Vundle manage Vundle, required
 " PLUGINS LIST{{{
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
