@@ -4,7 +4,7 @@
 
 " SETUP {{{
 " Set up Vundle by cloning the repo
- " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vimfiles/bundle/Vundle.vim
+ " git clone https://github.com/VundleVim/Vundle.vim.git ~/vimfiles/bundle/Vundle.vim
  " then run:
  " :VundleInstall 
  " in the vim command line
